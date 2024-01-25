@@ -1,3 +1,30 @@
-.card-catalog {
-    display: flex;
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@600&family=Montserrat&family=Poppins:ital,wght@1,500&display=swap');
+.cards {
+    border: 1px solid #002c3590;
+    padding:15px;
+    display: block;
+    text-align: center;
+    border-radius: 8px;
+}
+.cards:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 19px #4286948b;
+}
+.img {
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: inset 5px 5px 19px #353939c0;
+}
+.id {
+    font-weight: 700;
+    font-family: Poppins;
+    text-shadow: 0 0 5px #002c3564;
+}
+.card-id {
+    font-family:Montserrat;
+    text-shadow: 0 0 5px #002c3564;
+}
+.card-title {
+    color: rgba(0, 174, 255, 0.692);
+    text-shadow: 0 0 5px rgba(2, 106, 155, 0.366);
 }

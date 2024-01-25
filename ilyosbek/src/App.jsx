@@ -19,9 +19,11 @@ function App() {
 
   return (
     <>
-      {count.map((el) => (
-        <Card key={el} {...el} />
-      ))}
+      <div className="  flex flex-wrap justify-center gap-8 mt-20 mb-20">
+        {count.map((el) => (
+          <Card key={el} {...el} />
+        ))}
+      </div>
     </>
   );
 }
